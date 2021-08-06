@@ -100,6 +100,8 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__(/*! es6-promise-polyfill */ "./node_modules/es6-promise-polyfill/promise.js");
 
 
+const name = 'John';
+$('h2').eq(0).html(`Это предложение именно для вас, ${name}`);
 
 /***/ }),
 
